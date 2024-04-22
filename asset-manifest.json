@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/spice-lifestyle/static/css/main.e5731c08.css",
-    "main.js": "/spice-lifestyle/static/js/main.9080854f.js",
+    "main.js": "/spice-lifestyle/static/js/main.6ab4a94d.js",
     "static/js/453.05d41710.chunk.js": "/spice-lifestyle/static/js/453.05d41710.chunk.js",
     "index.html": "/spice-lifestyle/index.html",
     "main.e5731c08.css.map": "/spice-lifestyle/static/css/main.e5731c08.css.map",
-    "main.9080854f.js.map": "/spice-lifestyle/static/js/main.9080854f.js.map",
+    "main.6ab4a94d.js.map": "/spice-lifestyle/static/js/main.6ab4a94d.js.map",
     "453.05d41710.chunk.js.map": "/spice-lifestyle/static/js/453.05d41710.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e5731c08.css",
-    "static/js/main.9080854f.js"
+    "static/js/main.6ab4a94d.js"
   ]
 }
