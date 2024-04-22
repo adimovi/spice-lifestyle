@@ -1,24 +1,37 @@
-import logo from './logo.svg';
-import './App.css';
+
+import  NavBar  from './components/NavBar';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Home from './pages/Home';
+import Bbq from './pages/Bbq';
+import CoWorking from './pages/Coworking';
+import Village from './pages/Village';
+import Grocery from './pages/Grocery';
+import Fashion from './pages/Fashion';
+import Services from './pages/Services';
+import NoPage from './pages/NoPage';
+import Footer from './components/Footer';
+import Contact from './pages/Contact';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+     <BrowserRouter>
+    <NavBar/>
+    <Routes>
+      <Route index element={<Home/>} />
+      <Route path="/spice-lifestyle/" element={<Home/>} />
+      <Route path="/spice-lifestyle/bbq" element={<Bbq/>} />
+      <Route path="/spice-lifestyle/coworking" element={<CoWorking/>} />
+      <Route path="/spice-lifestyle/services" element={<Services/>} />
+      <Route path="/spice-lifestyle/village" element={<Village/>} />
+      <Route path="/spice-lifestyle/grocery" element={<Grocery/>} />
+      <Route path="/spice-lifestyle/fashion" element={<Fashion/>} />
+      <Route path="/spice-lifestyle/contact" element={<Contact/>} />
+      <Route path="*" element={<NoPage/>} />
+    </Routes>
+    <Footer/>
+    </BrowserRouter>
+    </>
   );
 }
 

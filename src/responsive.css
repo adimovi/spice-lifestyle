@@ -1,0 +1,17 @@
+@media (max-width:1144px) {
+  .navbar-nav a{
+    font-size:19px;
+  }
+
+  p{
+    font-size: 15px;
+  }
+}
+
+@media (max-width:1400px) {
+  
+
+  p{
+    font-size: 17px;
+  }
+}
