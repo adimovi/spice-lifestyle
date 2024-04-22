@@ -103,12 +103,12 @@ function Grocery() {
 
             </div>
             <div className="col-lg-6 col-12 align-self-center">
-              <img src="/imgs/hangar.jpg" className='mb-5' alt="" />
-              <img src="/imgs/vegetables.jpg" className='mb-5' alt="" />
-              <img src="/imgs/meat.jpg" alt="" />
+              <img src="imgs/hangar.jpg" className='mb-5' alt="" />
+              <img src="imgs/vegetables.jpg" className='mb-5' alt="" />
+              <img src="imgs/meat.jpg" alt="" />
             </div>
           </div>
-          <img src="/imgs/van.jpg" alt="" />
+          <img src="imgs/van.jpg" alt="" />
         </div>
         </div>
         </div>

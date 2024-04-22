@@ -79,7 +79,7 @@ function CoWorking() {
 
         </div>
         <div className="col-lg-5 col-12 align-self-center">
-          <img src="/imgs/cowplan.jpg" alt="" style={{width:"100%"}}/>
+          <img src="imgs/cowplan.jpg" alt="" style={{width:"100%"}}/>
         </div>
         </div>
       </div>

@@ -21,7 +21,7 @@ function Services() {
               rental property, tour guides, nanny services, sports membership, administration management etc </p>
             <p className='mb-0'>A brand that can be completely trusted to perform reliably, without breaking the bank.</p>
           </div>
-          <img src="/imgs/serv.jpg" alt="" style={{width:"100%"}} />
+          <img src="imgs/serv.jpg" alt="" style={{width:"100%"}} />
 
           <table className="table my-5  table-bordered bbq">
   <thead>
@@ -98,7 +98,7 @@ function Services() {
     </tr>
   </tbody>
 </table>
-<img src="/imgs/servplan.jpg" style={{width:"100%"}} alt="" />
+<img src="imgs/servplan.jpg" style={{width:"100%"}} alt="" />
         </div>
       </div>
     </div>
