@@ -8,7 +8,7 @@ function NavBar() {
     <>
     <div className='text-center d-flex  flex-column container-fluid'>
       <div className="container py-4 d-flex justify-content-around">
-      <Link to="/" className='big-title'>Spice Lifestyle</Link>
+      <Link to="/spice-lifestyle/" className='big-title'>Spice Lifestyle</Link>
       <Link to='/spice-lifestyle/contact' className='contact'>Contact Barry</Link>
       </div>
       <Navbar expand="lg">

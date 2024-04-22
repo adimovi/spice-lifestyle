@@ -80,7 +80,7 @@ function Home() {
               <p className='mb-0'>My plan is to steer the ship in the right direction towards the point of launch of all concepts, and then to let people far more capable than myself to take over from there.</p>
             </div>
             <div className="col-lg-4 col-12 align-self-center">
-                <img src="imgs/barry.jpg" className='rounded-3' alt="" style={{width:"100%"}} />
+                <img src="/imgs/barry.jpg" className='rounded-3' alt="" style={{width:"100%"}} />
             </div>
 
             
@@ -92,6 +92,7 @@ function Home() {
         </div>
    
     </div>
+  
     </>
   )
 }
