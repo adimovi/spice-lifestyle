@@ -35,8 +35,8 @@ export default function Bbq() {
   </thead>
   <tbody>
     <tr>
-      <th scope="row">Further R&D</th>
-      <td>200,000</td>
+      <th scope="row">Project Team Costs for two years</th>
+      <td>2,000,000</td>
     </tr>
     <tr>
       <th scope="row">HQ Team costs for two years</th>
@@ -49,7 +49,7 @@ export default function Bbq() {
     
     <tr>
       <th scope="row">Total</th>
-      <td>4,700,000</td>
+      <td>6,500,000</td>
     </tr>
   </tbody>
 </table>

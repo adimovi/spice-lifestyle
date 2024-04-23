@@ -84,7 +84,7 @@ function Village() {
 </table>
           </div>
           <div className="col-lg-6 col-12">
-            <img src="imgs/exthouse.jpg" alt="" style={{width:"100%"}}/>
+            <img src="imgs/villageplan.png" alt="" style={{width:"100%"}}/>
           </div>
           </div>
           </div>

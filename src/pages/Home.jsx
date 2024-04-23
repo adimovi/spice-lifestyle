@@ -1,27 +1,30 @@
 import React from 'react'
-import { Link } from 'react-router-dom';
 
 function Home() {
   return (
     <>
     <div className="container-fluid py-5 hero">
         <div className="container py-5">
-        <h1 className="text-center bold mb-4">The Spice Lifestyle Brand</h1>
+        <h1 className="text-center bold mb-4 slide-in-left" >The Spice Lifestyle Brand</h1>
+        <div className="slide-in-right">
         <h2 className="text-center mb-3">Innovative Practical Common Sense and yet exciting Products & Services</h2>
         <h2 className="text-center mb-3">For a specific demographic of young adventurous affluent professionals worldwide</h2>
         <h2 className="text-center">Which requires practically no marketing budget.</h2>
+        </div>
         </div>
     </div>
 
     <div className="container py-5 mt-5">
         <div className="row d-flex justify-content-center">
             <div className="col-lg-11 col-12">
+            <div class="table-responsive">
             <table className="table table-bordered">
   <thead>
     <tr>
-      <th scope="col" style={{width:"20%"}}>Business</th>
+      <th scope="col" style={{width:"15%"}}>Business</th>
       <th scope="col" style={{width:"15%"}}>Investment required</th>
       <th scope="col" style={{width:"20%"}}>Potential Annual Gross Income</th>
+      <th scope="col" style={{width:"10%"}}>ROI</th>
       <th scope="col" style={{width:"40%"}}>Notes</th>
     </tr>
   </thead>
@@ -30,18 +33,24 @@ function Home() {
       <th scope="row">Spice BBQ Restaurants</th>
       <td>4,700,000</td>
       <td>142,000,000</td>
+      <td>3 Years</td>
       <td>This is with 1,000 outlets franchised</td>
+    </tr>
+    <tr>
+      <td colSpan={5} style={{color:"var(--main-color)"}} className='bold'>The BBQ Spice Restaurants will self finance the roll out of the remaining concepts after year 3.</td>
     </tr>
     <tr>
       <th scope="row">Spice Coworking</th>
       <td>13,000,000</td>
       <td>54,000,000</td>
+      <td>2 Years</td>
       <td>This is with 1,000 outlets franchised</td>
     </tr>
     <tr>
       <th scope="row">Spice Professional Services</th>
       <td>40,700,000</td>
       <td>30,625,000</td>
+      <td>2 Years</td>
       <td>This is with 700 outlets franchised.</td>
     </tr>
     
@@ -49,27 +58,31 @@ function Home() {
       <th scope="row">Spice CoLiving Villages</th>
       <td>16,300,000</td>
       <td>1,920,000</td>
-      <td>This is net just for one village, and can be rolled out.</td>
+      <td>8 Years</td>
+      <td>Roll out 20 villages per year after prototype</td>
     </tr>
     <tr>
       <th scope="row">Spice Grocery</th>
       <td>134,000,000</td>
       <td>40,000,000</td>
-      <td>This is for one set of fulfilment centres per 2 million population in developed countries and can be rolled out far and wide.</td>
+      <td>6 Years</td>
+      <td>Roll out 50 sets of fulfilment centres per year after prototype</td>
     </tr>
     <tr>
       <th scope="row">Spice Fashion</th>
-      <td>2,400,000</td>
+      <td>?</td>
       <td>76,800,000</td>
-      <td>This is per 2 million population in western developed countrie, but investment required is not accurate <br className='d-lg-block d-none'/>
-( <Link to="/spice-lifestyle/fashion">See the Spice Fashion page</Link>)
-</td>
+      <td>?</td>
+      <td>Roll out 50 sets of fulfilment centres per year after prototype
+     </td>
     </tr>
   </tbody>
 </table>
+</div>
         
-          <p className='mt-5'>The total investment required is just over 200 million, but that is not taking income into account.</p>
-          <p>We will need in the region of 70 million to roll out the first 4 concepts more or less simultaneously, at which point we should have easily generated income for the remainder of the investment, plus we will have built up an audience of the exact demographic we require to maximise the last two concepts.</p>
+          <p className='mt-5 mb-0'>We need 6.5 million to roll out the first BBQ concept to 1,000 outlets within 4 years, and this business will finance the creation and rollout of the remaining 5 concepts, over the following 6 years. </p>
+          <p className='mb-0'>We estimate that the total value of the company will be in the region of 50 billion within a 10 year time frame, if all goes to plan, or even close to it.</p>
+          <p>Very unique business concepts and building up a loyal global customer demographic, without marketing costs or expensive high street stores is the key. This will keep our top quality products and services very competitive to the benefit of our global community of customer members.</p>
         
         <div className="row my-5 p-lg-4 p-2 bg-white rounded-3 shadow">
             <div className="col-lg-8 col-12">

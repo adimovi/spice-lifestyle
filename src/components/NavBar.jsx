@@ -1,4 +1,3 @@
-import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import { Link } from 'react-router-dom';
@@ -7,7 +6,7 @@ function NavBar() {
   return (
     <>
     <div className='text-center d-flex  flex-column container-fluid'>
-      <div className="container py-4 d-flex justify-content-around">
+      <div className="container py-4 d-flex justify-content-around d-lg-block d-none">
       <Link to="/spice-lifestyle/" className='big-title'>Spice Lifestyle</Link>
       <Link to='/spice-lifestyle/contact' className='contact'>Contact Barry</Link>
       </div>
@@ -24,7 +23,6 @@ function NavBar() {
             <Link to="/spice-lifestyle/fashion" className='nav-link'>Fashion</Link>
           </Nav>
         </Navbar.Collapse>
-      
     </Navbar>
     </div>
     </>
