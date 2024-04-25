@@ -31,7 +31,7 @@ function Home() {
   <tbody>
     <tr>
       <th scope="row">Spice BBQ Restaurants</th>
-      <td>4,700,000</td>
+      <td>6,500,000</td>
       <td>142,000,000</td>
       <td>3 Years</td>
       <td>This is with 1,000 outlets franchised</td>
@@ -80,7 +80,7 @@ function Home() {
 </table>
 </div>
         
-          <p className='mt-5 mb-0'>We need 6.5 million to roll out the first BBQ concept to 1,000 outlets within 4 years, and this business will finance the creation and rollout of the remaining 5 concepts, over the following 6 years. </p>
+          <p className='mt-5 mb-0'>We need 6.5 million to roll out the first BBQ concept to 1,000 outlets within 3 years, and this business will finance the creation and rollout of the remaining 5 concepts, over the following 6 years. </p>
           <p className='mb-0'>We estimate that the total value of the company will be in the region of 50 billion within a 10 year time frame, if all goes to plan, or even close to it.</p>
           <p>Very unique business concepts and building up a loyal global customer demographic, without marketing costs or expensive high street stores is the key. This will keep our top quality products and services very competitive to the benefit of our global community of customer members.</p>
         
