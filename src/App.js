@@ -19,14 +19,14 @@ function App() {
         <NavBar/>
         <Routes>
           <Route index element={<Home/>} />
-          <Route path="/spice-lifestyle/" element={<Home/>} />
-          <Route path="/spice-lifestyle/bbq" element={<Bbq/>} />
-          <Route path="/spice-lifestyle/coworking" element={<CoWorking/>} />
-          <Route path="/spice-lifestyle/services" element={<Services/>} />
-          <Route path="/spice-lifestyle/village" element={<Village/>} />
-          <Route path="/spice-lifestyle/grocery" element={<Grocery/>} />
-          <Route path="/spice-lifestyle/fashion" element={<Fashion/>} />
-          <Route path="/spice-lifestyle/contact" element={<Contact/>} />
+          <Route path="/" element={<Home/>} />
+          <Route path="/bbq" element={<Bbq/>} />
+          <Route path="/coworking" element={<CoWorking/>} />
+          <Route path="/services" element={<Services/>} />
+          <Route path="/village" element={<Village/>} />
+          <Route path="/grocery" element={<Grocery/>} />
+          <Route path="/fashion" element={<Fashion/>} />
+          <Route path="/contact" element={<Contact/>} />
           <Route path="*" element={<NoPage/>} />
         </Routes>
         <Footer/>

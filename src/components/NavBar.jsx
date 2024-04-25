@@ -7,20 +7,20 @@ function NavBar() {
     <>
     <div className='text-center d-flex  flex-column container-fluid'>
       <div className="container py-4 d-flex justify-content-around d-lg-block d-none">
-      <Link to="/spice-lifestyle/" className='big-title'>Spice Lifestyle</Link>
-      <Link to='/spice-lifestyle/contact' className='contact'>Contact Barry</Link>
+      <Link to="/" className='big-title'>Spice Lifestyle</Link>
+      <Link to='/contact' className='contact'>Contact Barry</Link>
       </div>
       <Navbar expand="lg">
       
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mx-auto">
-            <Link to="/spice-lifestyle/bbq" className='nav-link'>BBQ</Link>
-            <Link to="/spice-lifestyle/coworking" className='nav-link'>CoWorking</Link>
-            <Link to="/spice-lifestyle/services" className='nav-link'>Professional Services</Link>
-            <Link to="/spice-lifestyle/village" className='nav-link'>CoLiving Villages</Link>
-            <Link to="/spice-lifestyle/grocery" className='nav-link'>Grocery</Link>
-            <Link to="/spice-lifestyle/fashion" className='nav-link'>Fashion</Link>
+            <Link to="/bbq" className='nav-link'>BBQ</Link>
+            <Link to="/coworking" className='nav-link'>CoWorking</Link>
+            <Link to="/services" className='nav-link'>Professional Services</Link>
+            <Link to="/village" className='nav-link'>CoLiving Villages</Link>
+            <Link to="/grocery" className='nav-link'>Grocery</Link>
+            <Link to="/fashion" className='nav-link'>Fashion</Link>
           </Nav>
         </Navbar.Collapse>
     </Navbar>
