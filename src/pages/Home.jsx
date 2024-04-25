@@ -99,7 +99,8 @@ function Home() {
             
         </div>
 
-        <p className='text-center'>(To find out more information on each of the individual concepts I have designed, click on the relevant page in the menu. )</p>
+        <p className='text-center'>( To get more detail from the website itself, go to <a href='www.birchleyenterprisesireland.com'>www.birchleyenterprisesireland.com</a>)</p>
+        <p className='text-center'>( To contact Barry, please use the following email: <a href='mailto:barry@birchley.com'>barry@birchley.com</a>)</p>
         
             </div>
         </div>

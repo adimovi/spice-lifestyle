@@ -1,6 +1,6 @@
 
 import  NavBar  from './components/NavBar';
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import Home from './pages/Home';
 import Bbq from './pages/Bbq';
 import CoWorking from './pages/Coworking';
@@ -15,22 +15,22 @@ import Contact from './pages/Contact';
 function App() {
   return (
     <>
-     <BrowserRouter>
-    <NavBar/>
-    <Routes>
-      <Route index element={<Home/>} />
-      <Route path="/spice-lifestyle/" element={<Home/>} />
-      <Route path="/spice-lifestyle/bbq" element={<Bbq/>} />
-      <Route path="/spice-lifestyle/coworking" element={<CoWorking/>} />
-      <Route path="/spice-lifestyle/services" element={<Services/>} />
-      <Route path="/spice-lifestyle/village" element={<Village/>} />
-      <Route path="/spice-lifestyle/grocery" element={<Grocery/>} />
-      <Route path="/spice-lifestyle/fashion" element={<Fashion/>} />
-      <Route path="/spice-lifestyle/contact" element={<Contact/>} />
-      <Route path="*" element={<NoPage/>} />
-    </Routes>
-    <Footer/>
-    </BrowserRouter>
+   <Router>
+        <NavBar/>
+        <Routes>
+          <Route index element={<Home/>} />
+          <Route path="/spice-lifestyle/" element={<Home/>} />
+          <Route path="/spice-lifestyle/bbq" element={<Bbq/>} />
+          <Route path="/spice-lifestyle/coworking" element={<CoWorking/>} />
+          <Route path="/spice-lifestyle/services" element={<Services/>} />
+          <Route path="/spice-lifestyle/village" element={<Village/>} />
+          <Route path="/spice-lifestyle/grocery" element={<Grocery/>} />
+          <Route path="/spice-lifestyle/fashion" element={<Fashion/>} />
+          <Route path="/spice-lifestyle/contact" element={<Contact/>} />
+          <Route path="*" element={<NoPage/>} />
+        </Routes>
+        <Footer/>
+      </Router>
     </>
   );
 }
