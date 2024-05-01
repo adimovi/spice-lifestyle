@@ -1,9 +1,14 @@
 import React from 'react'
-
+import { Link } from 'react-router-dom'
 function NoPage() {
   return (
-    <div>NoPage 404</div>
+    <>
+    <div className="py-5">
+    <h1 className='text-center text-danger mb-4'>404 No page found</h1>
+    <h1 className='text-center '><Link to="/">Click here to go to the home page</Link></h1>
+    </div>
+    </>
   )
 }
 
-export default NoPage
+export default NoPage;

@@ -7,23 +7,25 @@ function Village() {
         <div className="container pb-5">
       <div className="row d-flex justify-content-center">
         <div className="col-lg-10 col-12">
-          <div className="bg-white shadow rounded-3 p-lg-4 p-2 my-5">
+          <div className="bg-white shadow rounded-3 p-lg-4 p-3 my-5">
             <p>There are quite a few young affluent people in the world today who can work remotely. Many of them have been living as digital nomads travelling the world, but eventually they get fed up with that lifestyle.</p>
             <p>Because of their travelling experiences, quite a few them will never return fulltime to their own country of origin, because they know what it is to live in better climates, which suits their outdoor hobbies and lifestyle.</p>
             <p>They do want to settle somewhere for a few years at least, if not longer, and that’s where Spice Lifestyle Coliving Villages comes into place. Designed for couples where both are working online.</p>
             <p className='mb-0 bold text-center'>Affordable long term leases in quality designed properties in amazing locations.</p>
           </div>
-          <div className="row">
-          <div className="col-lg-6 bg-white shadow rounded-3 p-lg-4 p-2 col-12">
+          <div className="row ">
+          <div className="col-lg-6 align-self-center  col-12">
+            <div className="bg-white shadow rounded-3 p-lg-4 p-3">
             <p className='bold'>Co Living USPs:</p>
             <p>200 accommodation units in each village.</p>
             <p>Very cost effective construction method.</p>
             <p>Designed so that houses can be built to completion including fixtures and fittings as well as  furniture installed within 3 weeks.</p>
             <p>Common areas for residents to include social spaces, fitness & spa facilities, as well as coworking spaces.</p>
-            <p>Very carefully selected locations to suit our customer demographic needs.</p>
+            <p className='mb-0'>Very carefully selected locations to suit our customer demographic needs.</p>
+            </div>
           </div>
-          <div className="col-lg-6 col-12">
-            <img src="imgs/exthouse.jpg" alt="" style={{width:"100%"}} />
+          <div className="col-lg-6 col-12 mt-lg-0 mt-3">
+            <img src="imgs/exthouse.jpg" alt="exterior house" className='d-block mx-auto rounded-3' style={{width:"100%"}} />
           </div>
           </div>
           <div className="row my-5">
@@ -84,7 +86,7 @@ function Village() {
 </table>
           </div>
           <div className="col-lg-6 col-12">
-            <img src="imgs/villageplan.jpg" alt="" style={{width:"100%"}}/>
+            <img src="imgs/villageplan.jpg" alt="plan" className='mx-auto d-block' style={{width:"80%"}}/>
           </div>
           </div>
           </div>

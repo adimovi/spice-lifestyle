@@ -7,14 +7,14 @@ function Services() {
     <div className="container pb-5">
       <div className="row d-flex justify-content-center">
         <div className="col-lg-10 col-12">
-          <div className="bg-white shadow rounded-3 p-lg-4 p-2 my-5">
+          <div className="bg-white shadow rounded-3 p-lg-4 p-3 my-5">
             <p>How much time have I lost looking for a reliable trustworthy local accountant, solicitor, engineer or business concierge relocation services provider in multiple locations that won’t rip you off?</p>
             <p>How many multinational corporations or global startups need to register new companies/trademarks, open bank accounts, or relocate staff, all across multiple locations worldwide simultaneously?</p>
             <p className='mb-0'>What’s the solution? Rent 700 office spaces worldwide of approximately 150 square meters (1,500 square feet), refit them and sublet them to seven carefully recruited professionals, who will operate as independent contractors. 
                Now look at the global potential we have at our hands, both for ourselves and our clients.</p>
           </div>
 
-          <div className="bg-white shadow rounded-3 p-lg-4 p-2 mb-5">
+          <div className="bg-white shadow rounded-3 p-lg-4 p-3 mb-5">
             <p className='bold'>Spice Professional Services USPs:</p>
             <p>Reasonably priced quality professionals worldwide who can carry out tasks for local, national and even multinational clients across multiple jurisdictions simultaneously.</p>
             <p>A one stop global business concierge service to assist people relocating in every way possible, including sourcing schools, health care, car lease, 
@@ -59,7 +59,7 @@ function Services() {
 <table className="table my-5  table-bordered bbq">
   <thead>
     <tr>
-      <th scope="col" style={{width:"100%"}}>Total Expected Income medium term</th>
+      <th scope="col" style={{width:"65%"}}>Total Expected Income medium term</th>
       <th scope="col" style={{width:"35%"}}></th>
     </tr>
   </thead>

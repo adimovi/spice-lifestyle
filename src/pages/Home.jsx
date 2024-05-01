@@ -80,27 +80,26 @@ function Home() {
 </table>
 </div>
         
-          <p className='mt-5 mb-0'>We need 6.5 million to roll out the first BBQ concept to 1,000 outlets within 3 years, and this business will finance the creation and rollout of the remaining 5 concepts, over the following 6 years. </p>
-          <p className='mb-0'>We estimate that the total value of the company will be in the region of 50 billion within a 10 year time frame, if all goes to plan, or even close to it.</p>
-          <p>Very unique business concepts and building up a loyal global customer demographic, without marketing costs or expensive high street stores is the key. This will keep our top quality products and services very competitive to the benefit of our global community of customer members.</p>
+          <p className='mt-5 mb-0 px-lg-0 px-3'>We need 6.5 million to roll out the first BBQ concept to 1,000 outlets within 3 years, and this business will finance the creation and rollout of the remaining 5 concepts, over the following 6 years. </p>
+          <p className='mb-0 px-lg-0 px-3'>We estimate that the total value of the company will be in the region of 50 billion within a 10 year time frame, if all goes to plan, or even close to it.</p>
+          <p className=' px-lg-0 px-3'>Very unique business concepts and building up a loyal global customer demographic, without marketing costs or expensive high street stores is the key. This will keep our top quality products and services very competitive to the benefit of our global community of customer members.</p>
         
-        <div className="row my-5 p-lg-4 p-2 bg-white rounded-3 shadow">
+        <div className="row my-5 p-lg-4 p-3 bg-white rounded-3 shadow mx-lg-0 mx-2">
             <div className="col-lg-8 col-12">
               <p className='mb-0'>Barry Murphy:</p>
               <p>I have created quite a few businesses over the past few decades, which led me to continuously travel the world. Having a very curious mind, I am continuously observing a lot of trends and human nature across different cultures, and I am always asking myself if there isn’t a better way to execute certain tasks in any situation.</p>
               <p>I handed over the reins of my main business to my eldest son three years ago, and I decided to spend my time designing new concepts which have global potential, using my travel observations and proven design skills.</p>
               <p>After conducting a lot of research across various industries, my plan is to find a compatible investor, who would like to work with me towards launching the products and services I have designed, as long as they have a similar business philosophy as my own.</p>
-              <p className='mb-0'>My plan is to steer the ship in the right direction towards the point of launch of all concepts, and then to let people far more capable than myself to take over from there.</p>
+              <p className='mb-lg-0 mb-3'>My plan is to steer the ship in the right direction towards the point of launch of all concepts, and then to let people far more capable than myself to take over from there.</p>
             </div>
             <div className="col-lg-4 col-12 align-self-center">
-                <img src="imgs/barry.jpg" className='rounded-3' alt="" style={{width:"100%"}} />
+                <img src="imgs/barry.jpg" className='rounded-3 mb-lg-0 mb-3' alt="barry" style={{width:"100%"}} />
             </div>
 
             
         </div>
 
-        <p className='text-center'>( To get more detail from the website itself, go to <a href='www.birchleyenterprisesireland.com'>www.birchleyenterprisesireland.com</a>)</p>
-        <p className='text-center'>( To contact Barry, please use the following email: <a href='mailto:barry@birchley.com'>barry@birchley.com</a>)</p>
+        <p className='text-center'>( To contact Barry, please use the following email: <a href='mailto:barry@birchleyenterprisesireland.com'>barry@birchleyenterprisesireland.com</a>)</p>
         
             </div>
         </div>

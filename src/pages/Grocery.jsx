@@ -6,8 +6,8 @@ function Grocery() {
     <h1 className='text-center bold pt-5'>Spice Grocery</h1>
     <div className="container py-5">
       <div className="row d-flex justify-content-center">
-        <div className="col-lg-11 col-12">
-          <div className="bg-white p-lg-4 p-2 shadow rounded-3">
+        <div className="col-lg-10 col-12">
+          <div className="bg-white p-lg-4 p-3 shadow rounded-3">
             <p>Existing grocery logistics fulfilment systems have either overstepped the use of robots to the extent they make no practical commercial sense, or in other cases they are too labour intensive and primitive.</p>
             <p>After studying the sector in some depth over time, both from the operators and customers perspective, we believe we have come up with a very efficient system, but it will only suit about 20% of the total households in any western developed country for various reasons.</p>
             <p className='mb-0'>Given the fact that there is an average of 2.5 persons to each household, we would require one main fulfilment centre for every 2 million population, which could service upto 160,000 households with the use of three sub fulfilment centres for fresh products.</p>
@@ -15,7 +15,7 @@ function Grocery() {
           
           <div className="row my-5">
             <div className="col-lg-6 col-12">
-            <div className="bg-white p-lg-4 p-2 shadow rounded-3">
+            <div className="bg-white p-lg-4 p-3 shadow rounded-3">
               <p className='bold'>Spice Grocery USPs:</p>
               <p>We believe that the convenience for our suitable customers is at a level that simply doesn’t exist today, due to the design of the system.</p>
               <p>We will be able to save our customers an average of between 10 to 15% of their annual grocery bill, while still maintaining a 5% margin.</p>
@@ -103,12 +103,12 @@ function Grocery() {
 
             </div>
             <div className="col-lg-6 col-12 align-self-center">
-              <img src="imgs/hangar.jpg" className='mb-5' alt="" />
-              <img src="imgs/vegetables.jpg" className='mb-5' alt="" />
-              <img src="imgs/meat.jpg" alt="" />
+              <img src="imgs/hangar.jpg" className='d-block mx-auto rounded-3 mb-5' alt="hangar" />
+              <img src="imgs/vegetables.jpg" className='d-block mx-auto rounded-3 mb-5' alt="veggie" />
+              <img src="imgs/meat.jpg" className='d-block mx-auto rounded-3' alt="meat" />
             </div>
           </div>
-          <img src="imgs/van.jpg" alt="" />
+          <img src="imgs/van.jpg" className='d-block mx-auto rounded-3' alt="van" />
         </div>
         </div>
         </div>

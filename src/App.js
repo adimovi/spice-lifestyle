@@ -1,6 +1,6 @@
-
-import  NavBar  from './components/NavBar';
-import { HashRouter as Router, Routes, Route } from "react-router-dom";
+import React from 'react';
+import NavBar from './components/NavBar';
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from './pages/Home';
 import Bbq from './pages/Bbq';
 import CoWorking from './pages/Coworking';
@@ -15,7 +15,7 @@ import Contact from './pages/Contact';
 function App() {
   return (
     <>
-   <Router>
+      <Router>
         <NavBar/>
         <Routes>
           <Route index element={<Home/>} />

@@ -23,7 +23,7 @@ export default function Bbq() {
            
           </div>
 
-          <img src="imgs/bbq-rest.jpg" alt="" style={{width:"80%"}} />
+          <img src="imgs/bbq-rest.jpg" alt="bbg plan" className='d-block mx-auto rounded-3' style={{width:"80%"}} />
 
            <div className="col-lg-10 col-12 my-5">
            <table className="table table-bordered bbq">
